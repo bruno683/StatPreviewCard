@@ -138,10 +138,20 @@ p{
     align-items: center;
   }
   .display-stats{
-    display: inline;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
     margin:0;
-    width: auto;
+    width: 100%;
     padding-top: 10%;
+  }
+  element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
   }
   .stats{
     color: hsla(0, 0%, 100%, 0.911);
