@@ -1,5 +1,7 @@
 *{
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -100,12 +102,12 @@ p{
   }
   
 }
-@media screen and(min-width: 1440px){
+@media screen and(min-width: 1080px){
   .wrapper {
     margin:auto;
     display: flex;
     flex-direction: row-reverse;
-    width: auto;
+    width: 65%;
     height: auto;
   }
   .img-card .background{
@@ -130,7 +132,7 @@ p{
     display: flex;
     flex-direction: column;
     margin: auto;
-    padding: 5% 10% 5% 3%;
+    //padding: 5% 10% 5% 3%;
     width: 50%;
     justify-content: center;
     align-items: center;
