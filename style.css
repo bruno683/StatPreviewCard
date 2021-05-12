@@ -152,7 +152,7 @@ p {
     flex-direction: row;
     justify-content: space-around;
     margin: 0;
-    width: 100%;
+    width: 60%;
     padding-top: 10%;
   }
 
@@ -179,13 +179,13 @@ p {
 
   .body-title {
     padding: 0;
-    width: 50%;
+    width: 60%;
   }
 
   .body-content {
     padding-top: 2%;
     color: rgba(255, 255, 255, 0.493);
-    width: 50%;
+    width: 60%;
   }
 }
 .attribution {
